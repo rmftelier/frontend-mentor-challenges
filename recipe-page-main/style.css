@@ -1,0 +1,143 @@
+@font-face {
+  src: url("../recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-family: "Outfit";
+  font-weight: 400, 600, 700;
+}
+@font-face {
+  src: url("../recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding: 110px;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  margin: 20px 0px 20px 0px;
+}
+
+h2 {
+  font-family: "Young Serif";
+  color: hsl(332, 51%, 32%);
+}
+
+.card {
+  width: 50vw;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 35px;
+  gap: 10px;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.preparation h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation b {
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation ul {
+  margin: 10px 0px 0px 20px;
+  gap: 10px;
+}
+
+.preparation ul li {
+  margin-bottom: 5px;
+}
+
+.card #ingredients {
+  padding: 20px;
+}
+
+#ingredients h2 {
+  margin: 0px 0px 15px -20px;
+}
+
+#ingredients ul li {
+  margin-bottom: 10px;
+}
+
+#ingredients ul li:last-child {
+  margin: 0px;
+}
+
+#instructions {
+  padding: 25px;
+}
+
+#instructions ol li {
+  margin-bottom: 10px;
+}
+
+#instructions li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+
+#instructions ol li b {
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+#instructions h2 {
+  margin: 0px 0px 15px -20px;
+}
+
+#nutrition {
+  padding: 25px;
+}
+
+#nutrition h2,
+#nutrition p,
+table {
+  margin: 0px 0px 15px -20px;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.table-container th,
+.table-container td {
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
